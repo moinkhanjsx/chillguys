@@ -1,0 +1,43 @@
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.shadow-neumorph {
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.05), -5px -5px 10px rgba(255,255,255,0.8);
+}
+
+.shadow-neumorph-button {
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.05), -3px -3px 6px rgba(255,255,255,0.8);
+}
+
+/* Button styling */
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Force text color and background for basic elements */
+body {
+  background-color: white;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1a202c;
+}
+
+p {
+  color: #4a5568;
+}

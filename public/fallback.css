@@ -1,0 +1,95 @@
+/* Fallback CSS in case Tailwind fails to load */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+
+.bg-blue-500 {
+  background-color: #4299e1;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-blue-500 {
+  color: #4299e1;
+}
+
+.shadow-neumorph {
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.05), -5px -5px 10px rgba(255,255,255,0.8);
+}
+
+.shadow-neumorph-button {
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.05), -3px -3px 6px rgba(255,255,255,0.8);
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-y-3 > * + * {
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .md\\:flex-row {
+    flex-direction: row;
+  }
+  
+  .md\\:space-x-6 > * + * {
+    margin-left: 1.5rem;
+  }
+  
+  .md\\:space-y-0 > * + * {
+    margin-top: 0;
+  }
+}
