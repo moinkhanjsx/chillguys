@@ -9,6 +9,9 @@ export default defineConfig({
     // This helps with client-side routing during development
     historyApiFallback: true
   },
+  preview: {
+    allowedHosts: ['coolbuddy.onrender.com']
+  },
   build: {
     outDir: 'dist',
     minify: 'esbuild',
